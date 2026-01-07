@@ -1,0 +1,59 @@
+html
+{
+    background-color: color-mix(in srgb, rgb(42, 73, 250) 15%, rgb(252, 245, 207) 85%);
+}
+
+body
+{
+    background-color: color-mix(in srgb, rgb(42, 73, 250) 25%, rgb(252, 245, 207) 75%);
+}
+h1{
+    font-size: 25px;
+    color: indigo;
+    /*background-color:;*/
+    text-align: center;
+}
+
+.pic
+{ 
+    border: 10px solid color-mix(in srgb, rgb(82, 82, 223) , rgb(243, 243, 203));
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+h3
+{
+    font-size: 1rem;
+    color: rgb(112, 17, 17);
+}
+
+p
+{
+    font-size: 16.5px;
+    
+}
+dt
+    {
+        margin-top: -10px;
+        margin-right: -20px;
+        list-style-position: inside;
+    }
+.light{
+    color:rgb(247, 237, 180);
+    border-radius: 04px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+footer{
+    font-size: 10.%;
+}
+*{
+    text-align: justify;
+}
